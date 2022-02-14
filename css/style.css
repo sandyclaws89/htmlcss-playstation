@@ -8,6 +8,7 @@
     --test1: red;
     --test2: blue;
     --test3: green;
+    --test4: purple;
 
 }
 
@@ -16,7 +17,7 @@ header{
 }
 
 .sony_img{
-    width: 120px;
+    width: 90px;
     height: 30px;
     margin: 0;
 }
@@ -27,32 +28,41 @@ header{
 }
 
 .test_class1{
+    /* height: 10px;
+    width: 10px; */
     background-color: var(--test1);
 }
 
 .test_class2{
-    width: 100%;
+   /* height: 10px;
+    width: 10px; */
     background-color: var(--test2);
 }
 
-.fa-bars{
-    font-size: 1.5em;
-   
-     
+.box_img{
+    width: 100px;
+    height: 100px;
+    background-color: var(--test1);
 }
 
-ul li{
-    display: inline block;
+.box_img:hover {
+    box-shadow: 0px 0px 5px grey;
+    cursor: pointer;
 }
 
-.ham_box{
-    width: 45px;
-    height: 35px;
-    border: solid white;
-    border-width: .1rem;
-    text-align: center;
-    line-height: 35px;
-    border-radius: 5px;
-    padding: 1px 0;
-    
-}
+.test_class3{
+    height: 10px;
+     width: 10px;
+     background-color: var(--test3);
+ }
+
+ .test_class4{
+    height: 10px;
+     width: 10px;
+     background-color: var(--test4);
+ }
+
+ 
+ 
+
+
