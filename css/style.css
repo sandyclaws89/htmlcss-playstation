@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --test1: red;
+    --test2: blue;
+    --test3: green;
+
+}
+
+header{
+    background-color: black;
+}
+
+.sony_img{
+    width: 120px;
+    height: 30px;
+    margin: 0;
+}
+
+.fa-playstation{
+    color: #0070D1;
+    font-size: 2.5rem;
+}
+
+.test_class1{
+    background-color: var(--test1);
+}
+
+.test_class2{
+    width: 100%;
+    background-color: var(--test2);
+}
+
+.fa-bars{
+    font-size: 1.5em;
+   
+     
+}
+
+ul li{
+    display: inline block;
+}
+
+.ham_box{
+    width: 45px;
+    height: 35px;
+    border: solid white;
+    border-width: .1rem;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    padding: 1px 0;
+    
+}
