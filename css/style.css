@@ -93,14 +93,18 @@ header{
      font-size: 1.5rem;
     }
     
-    .banner{
-        height: 80vh;
+    .returnal_banner{
+    height: 80vh;
     background-image:url(../img/jumbo-bg.png);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
+    background-position: center;  
+}
 
+.it_takes_two_banner{
+    height: 80vh;
+    background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;  
 }
 
  .img_box1{
@@ -126,6 +130,13 @@ header{
      position: relative;
      top: 300px;
  }
+
+ .text_position_2{
+    position: relative;
+    top: 150px;
+ }
+
+
 
 
  
