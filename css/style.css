@@ -1,3 +1,8 @@
+
+
+
+/* GENERAL  */
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +17,11 @@
 }
 
 .mt-6{
-    margin-top: 4.5rem;
+    margin-top: 6rem;
+}
+
+.relative{
+    position: relative;
 }
 
 .flex_row{
@@ -22,6 +31,8 @@
 .align_items_end{
     align-items: flex-end;
 }
+
+
 
 header{
     background-color: black;
@@ -80,22 +91,33 @@ header{
 
  .banner{
     height: 80vh;
-    background-image:url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-image:url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    TODO:  IL BG IMG HA UNA MIN WIDTH DA CONTROLLARE, NON SI RESTRINGE CON IL RESTRINGERE LO SCHERMO
-   
+    
 
 }
 
- .img_box{
-     width: 100px;
+ .img_box1{
+     width: 300px;
  }
 
- .card_box{
-     width: ;
+ .img_box2{
+     width: 100%;
+     height: 150px;
  }
+
+ .margin_test{
+     margin-top: 50rem;
+ }
+
+ .text_position_1{
+     position: relative;
+     top: 300px;
+ }
+
+
  
  
 
