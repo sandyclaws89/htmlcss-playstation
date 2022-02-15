@@ -51,9 +51,9 @@ header{
 }
 
 .img{
-    display: inline-block;
-    /* width: 150px; */
-    /* height: 100px; */
+    /* display: inline-block; */
+    width: 150px;
+    height: 100px;
     background-color: var(--test1);
 }
 
@@ -91,6 +91,10 @@ header{
 
  .img_box{
      width: 100px;
+ }
+
+ .card_box{
+     width: ;
  }
  
  

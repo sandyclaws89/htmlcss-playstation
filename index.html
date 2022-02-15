@@ -18,6 +18,8 @@
 </head>
 
 <body>
+    <!-- TODO:  HENRY HA SISTEMATO LA NAV DANDO POSITION STATIC AL GENITORE DI OGNI LI, PER FAR APRIRE LE ICON PLAY -->
+    <!-- TODO:  BG COLOR DA SISTEMARE -->
     <header class="fixed-top">
 
         <div class="row justify-content-end">
@@ -26,6 +28,7 @@
             </div>
         </div>
 
+        <!-- TODO:  AL BP LG NON SI ALLARGA LA TENDINA DEL MENU AL 100% -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
             <div class="container-fluid">
@@ -40,294 +43,306 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                        <li class="nav-item dropdown">
+                    <!-- GIOCHI  -->
+                    <div class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <div class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Giochi
                             </a>
 
-                            <ul class="dropdown-menu border-0 row" aria-labelledby="navbarDropdown">
-                                <li class="col-12 col-lg-12 justify-content-center test_class1">
+                            <div class="row dropdown-menu border-0 justify-content-center flex-row text-center"
+                                aria-labelledby="navbarDropdown">
 
-                                    <div class="row justify-content-center">
-
-                                        <div class="col-auto col-lg-4"><img src="img/play-menu-ico.png"
-                                                class="img-fluid " alt=""></div>
-
-                                        <div class="col-auto col-lg-4"><img src="img/play-menu-ico.png"
-                                                class="img-fluid " alt=""></div>
-
-                                        <div class="col-auto col-lg-4"><img src="img/play-menu-ico.png"
-                                                class="img-fluid " alt=""></div>
+                                <div class="col-12 flex-row justify-content-center">
+                                    <div class="col-4 col-lg-4">
+                                        <img src="img/play-menu-ico.png">
                                     </div>
-
-                                </li>
-                                <hr class="col dropdown-divider">
-
-                                <ul class="list-inline-style row justify-content-center text-center">
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                </ul>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Hardware
-                            </a>
-
-                            <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                                <li>
-                                    <ul class="list-inline row justify-content-center mt-5 ">
-                                        <li class="list-inline-item col-auto">
-                                            <div class="box_img">
-                                                play
-                                            </div>
-                                        </li>
-                                        <li class="list-inline-item col-auto">
-                                            <div class="box_img">
-                                                play
-                                            </div>
-                                        </li>
-                                        <li class="list-inline-item col-auto">
-                                            <div class="box_img">
-                                                play
-                                            </div>
-                                        </li>
-                                    </ul>
-
-                                </li>
-                                <hr class="col dropdown-divider">
-
-                                <ul class="list-inline-style row justify-content-center">
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                </ul>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Servizi
-                            </a>
-
-                            <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                                <li>
-                                    <ul class="list-inline row justify-content-center mt-5 ">
-                                        <li class="list-inline-item col-auto">
-                                            <div class="box_img">
-                                                play
-                                            </div>
-                                        </li>
-                                        <li class="list-inline-item col-auto">
-                                            <div class="box_img">
-                                                play
-                                            </div>
-                                        </li>
-                                        <li class="list-inline-item col-auto">
-                                            <div class="box_img">
-                                                play
-                                            </div>
-                                        </li>
-                                    </ul>
-
-                                </li>
-                                <hr class="col dropdown-divider">
-
-                                <ul class="list-inline-style row justify-content-center">
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                </ul>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Novità
-                            </a>
-
-                            <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                                <li>
-                                    <ul class="list-inline row justify-content-center mt-5 ">
-                                        <li class="list-inline-item col-auto">
-                                            <div class="box_img">
-                                                play
-                                            </div>
-                                        </li>
-                                        <li class="list-inline-item col-auto">
-                                            <div class="box_img">
-                                                play
-                                            </div>
-                                        </li>
-                                        <li class="list-inline-item col-auto">
-                                            <div class="box_img">
-                                                play
-                                            </div>
-                                        </li>
-                                    </ul>
-
-                                </li>
-                                <hr class="col dropdown-divider">
-
-                                <ul class="list-inline-style row justify-content-center">
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                </ul>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Fai acquisti
-                            </a>
-
-                            <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                                <li>
-                                    <ul class="list-inline row justify-content-center mt-5 ">
-                                        <li class="list-inline-item col-auto">
-                                            <div class="box_img">
-                                                play
-                                            </div>
-                                        </li>
-                                        <li class="list-inline-item col-auto">
-                                            <div class="box_img">
-                                                play
-                                            </div>
-                                        </li>
-                                        <li class="list-inline-item col-auto">
-                                            <div class="box_img">
-                                                play
-                                            </div>
-                                        </li>
-                                    </ul>
-
-                                </li>
-                                <hr class="col dropdown-divider">
-
-                                <ul class="list-inline-style row justify-content-center">
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                </ul>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Supporto
-                            </a>
-
-                            <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                                <li>
-                                    <ul class="list-inline row justify-content-center mt-5 ">
-                                        <li class="list-inline-item col-auto">
-                                            <div class="box_img">
-                                                play
-                                            </div>
-                                        </li>
-                                        <li class="list-inline-item col-auto">
-                                            <div class="box_img">
-                                                play
-                                            </div>
-                                        </li>
-                                        <li class="list-inline-item col-auto">
-                                            <div class="box_img">
-                                                play
-                                            </div>
-                                        </li>
-                                    </ul>
-
-                                </li>
-                                <hr class="col dropdown-divider">
-
-                                <ul class="list-inline-style row justify-content-center">
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                    <li class="col-4 test_class1">
-                                        Link Giochi
-                                    </li>
-                                </ul>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-
-                            <div class="row justify-content-center">
-                                <div class="col-auto">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        My PlayStation
-                                    </a>
-
-                                    <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                                        <li>
-                                            <ul class="list-inline row justify-content-start mt-5 ">
-                                                <li class="list-inline-item col-auto">
-                                                    <div class="box_img">
-                                                        play
-                                                    </div>
-                                                </li>
-                                                <li class="list-inline-item col-auto">
-                                                    <div class="box_img">
-                                                        play
-                                                    </div>
-                                                </li>
-                                                <li class="list-inline-item col-auto">
-                                                    <div class="box_img">
-                                                        play
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                    <div class="col-4 col-lg-4">
+                                        <img src="img/play-menu-ico.png">
+                                    </div>
+                                    <div class="col-4 col-lg-4">
+                                        <img src="img/play-menu-ico.png">
+                                    </div>
                                 </div>
+
                             </div>
-                        </li>
+
+
+                        </div>
+
+                        <hr class="col dropdown-divider">
+
+                        <ul class="list-inline-style row justify-content-center">
+                            <li class="col-auto test_class1">
+                                Link Giochi
+                            </li>
+                            <li class="col-auto test_class1">
+                                Link Giochi
+                            </li>
+                            <li class="col-auto test_class1">
+                                Link Giochi
+                            </li>
+                        </ul>
+                    </div>
+                    </li>
+
+
+                    <!-- HARDWARE  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Hardware
+                        </a>
+
+                        <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                            <li>
+                                <ul class="list-inline row justify-content-center mt-5 ">
+                                    <li class="list-inline-item col-auto">
+                                        <div class="box_img">
+                                            play
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item col-auto">
+                                        <div class="box_img">
+                                            play
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item col-auto">
+                                        <div class="box_img">
+                                            play
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <hr class="col dropdown-divider">
+
+                            <ul class="list-inline-style row justify-content-center">
+                                <li class="col-4 test_class1">
+                                    Link Giochi
+                                </li>
+                                <li class="col-4 test_class1">
+                                    Link Giochi
+                                </li>
+                                <li class="col-4 test_class1">
+                                    Link Giochi
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+
+
+                    <!-- SERVIZI  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Servizi
+                        </a>
+
+                        <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                            <li>
+                                <ul class="list-inline row justify-content-center mt-5 ">
+                                    <li class="list-inline-item col-auto">
+                                        <div class="box_img">
+                                            play
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item col-auto">
+                                        <div class="box_img">
+                                            play
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item col-auto">
+                                        <div class="box_img">
+                                            play
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <hr class="col dropdown-divider">
+
+                            <ul class="list-inline-style row justify-content-center">
+                                <li class="col-4 test_class1">
+                                    Link Giochi
+                                </li>
+                                <li class="col-4 test_class1">
+                                    Link Giochi
+                                </li>
+                                <li class="col-4 test_class1">
+                                    Link Giochi
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+
+
+                    <!-- NOVITA'  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Novità
+                        </a>
+
+                        <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                            <li>
+                                <ul class="list-inline row justify-content-center mt-5 ">
+                                    <li class="list-inline-item col-auto">
+                                        <div class="box_img">
+                                            play
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item col-auto">
+                                        <div class="box_img">
+                                            play
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item col-auto">
+                                        <div class="box_img">
+                                            play
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <hr class="col dropdown-divider">
+
+                            <ul class="list-inline-style row justify-content-center">
+                                <li class="col-4 test_class1">
+                                    Link Giochi
+                                </li>
+                                <li class="col-4 test_class1">
+                                    Link Giochi
+                                </li>
+                                <li class="col-4 test_class1">
+                                    Link Giochi
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Fai acquisti
+                        </a>
+
+                        <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                            <li>
+                                <ul class="list-inline row justify-content-center mt-5 ">
+                                    <li class="list-inline-item col-auto">
+                                        <div class="box_img">
+                                            play
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item col-auto">
+                                        <div class="box_img">
+                                            play
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item col-auto">
+                                        <div class="box_img">
+                                            play
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <hr class="col dropdown-divider">
+
+                            <ul class="list-inline-style row justify-content-center">
+                                <li class="col-4 test_class1">
+                                    Link Giochi
+                                </li>
+                                <li class="col-4 test_class1">
+                                    Link Giochi
+                                </li>
+                                <li class="col-4 test_class1">
+                                    Link Giochi
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Supporto
+                        </a>
+
+                        <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                            <li>
+                                <ul class="list-inline row justify-content-center mt-5 ">
+                                    <li class="list-inline-item col-auto">
+                                        <div class="box_img">
+                                            play
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item col-auto">
+                                        <div class="box_img">
+                                            play
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item col-auto">
+                                        <div class="box_img">
+                                            play
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <hr class="col dropdown-divider">
+
+                            <ul class="list-inline-style row justify-content-center">
+                                <li class="col-4 test_class1">
+                                    Link Giochi
+                                </li>
+                                <li class="col-4 test_class1">
+                                    Link Giochi
+                                </li>
+                                <li class="col-4 test_class1">
+                                    Link Giochi
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+
+                        <div class="row justify-content-center">
+                            <div class="col-auto">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    My PlayStation
+                                </a>
+
+                                <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <ul class="list-inline row justify-content-start mt-5 ">
+                                            <li class="list-inline-item col-auto">
+                                                <div class="box_img">
+                                                    play
+                                                </div>
+                                            </li>
+                                            <li class="list-inline-item col-auto">
+                                                <div class="box_img">
+                                                    play
+                                                </div>
+                                            </li>
+                                            <li class="list-inline-item col-auto">
+                                                <div class="box_img">
+                                                    play
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
                     </ul>
                     <div class="row justify-content-center">
                         <div class="col-auto">
@@ -346,9 +361,9 @@
     </header>
 
     <section class="banner mt-5">
+        
         <div class="container">
-
-            <div class="row mt-5">
+            <div class="row mb-5 align-items-end ">
                 <div class="col">
                     <div class="offset-12 test_class1">
 
@@ -370,14 +385,40 @@
                                 thriller fantascientifico disponibile in esclusiva su PS5.
                             </p>
                         </div>
+                        <div class=" col-auto btn btn-danger rounded-pill">
+                            Acquista ora
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        TODO: NON RIESCO A FAR SCENDERE LA SCRITTA CON ALIGN ITEMS 
+        TODO: NON RIESCO A FAR SCENDERE LA SCRITTA CON ALIGN ITEMS
 
 
 
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-6 col-sm-4 col-lg-2">
+                <img src="img/returnal-listing-thumb-01-ps5.jpg" class="img-fluid card_box" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <img src="img/returnal-listing-thumb-01-ps5.jpg" class="img-fluid card_box" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <img src="img/returnal-listing-thumb-01-ps5.jpg" class="img-fluid card_box" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
     </section>
 
 
