@@ -117,7 +117,7 @@ header{
  }
 
  .img_box3{
-    height: 150px;
+    height: 50px;
  }
 
  .margin_test{
@@ -134,9 +134,20 @@ header{
     top: 150px;
  }
 
+ .text_position_3{
+     position:relative;
+     top: 100px;
+ }
+
  .new_release_bg{
      background-color: #1F1F1F;
  }
+
+ .plus_banner_bg{
+     background-color: #BEBCBB;
+ }
+
+
 
 
 
