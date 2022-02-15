@@ -9,7 +9,18 @@
     --test2: blue;
     --test3: green;
     --test4: purple;
+}
 
+.mt-6{
+    margin-top: 4.5rem;
+}
+
+.flex_row{
+    flex-direction: row;
+}
+
+.align_items_end{
+    align-items: flex-end;
 }
 
 header{
@@ -28,8 +39,8 @@ header{
 }
 
 .test_class1{
-    /* height: 10px;
-    width: 10px; */
+    height: 10px;
+    /* width: 10px; */
     background-color: var(--test1);
 }
 
@@ -41,8 +52,8 @@ header{
 
 .img{
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    /* width: 150px; */
+    /* height: 100px; */
     background-color: var(--test1);
 }
 
@@ -65,6 +76,20 @@ header{
 
  .fa-magnifying-glass{
      font-size: 1.5rem;
+ }
+
+ .banner{
+    height: 80vh;
+    background-image:url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+
+}
+
+ .img_box{
+     width: 100px;
  }
  
  
