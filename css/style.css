@@ -82,6 +82,11 @@ li > span:hover {
     cursor: pointer;
 }
 
+.btn-danger:hover{
+    border: 2px solid black;
+    outline: 1px solid red;
+}
+
 
 
 
