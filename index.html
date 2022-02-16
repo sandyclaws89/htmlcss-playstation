@@ -18,7 +18,7 @@
 </head>
 
 <body style="margin-bottom: 500px;">
-    <!-- TODO:  HENRY HA SISTEMATO LA NAV DANDO POSITION STATIC AL GENITORE DI OGNI LI, PER FAR APRIRE LE ICON PLAY -->
+    
     <!-- TODO:  BG COLOR DA SISTEMARE -->
     <header class="fixed-top">
 
@@ -28,332 +28,417 @@
             </div>
         </div>
 
-        <!-- TODO:  AL BP LG NON SI ALLARGA LA TENDINA DEL MENU AL 100% -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
             <div class="container-fluid">
+
+                <!-- LOGO PLAY  -->
                 <a class="navbar-brand" href="#">
                     <i class="fa-brands fa-playstation"></i>
                 </a>
+
+                <!-- HAMBURGER ICON  -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <!-- LIST NAV LEFT SIDE  -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-0">
 
-
-                    <!-- GIOCHI  -->
-                    <div class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                        <div class="nav-item dropdown">
+                        <!-- DROPDOWN ELEMENT PLAYSTATION  -->
+                        <li class="nav-item dropdown position-static">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Giochi
+                                PlayStation
                             </a>
 
-                            <div class="row dropdown-menu border-0 justify-content-center flex-row text-center"
+                            <!-- DROPDOWN LIST PLAYSTATION  -->
+                            <ul class="dropdown-menu m-0 w-100 border-0 rounded-0 pt-5"
                                 aria-labelledby="navbarDropdown">
+                                <li>
+                                    <!-- <a class="dropdown-item" href="#">Action</a> -->
+                                    <div class="row justify-content-center">
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
 
-                                <div class="col-12 flex-row justify-content-center">
-                                    <div class="col-4 col-lg-4">
-                                        <img src="img/play-menu-ico.png">
+                                            <span class="d-block">PlayStation 5</span>
+                                        </div>
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+                                            <span class="d-block">PlayStation 4</span>
+                                        </div>
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+                                            <span class="d-block">PlayStation 3</span>
+                                        </div>
                                     </div>
-                                    <div class="col-4 col-lg-4">
-                                        <img src="img/play-menu-ico.png">
+                                </li>
+                                <hr class="dropdown-divider">
+
+                                <ul class="list-inline text-center">
+                                    <li class="list-inline-item">
+                                        &bull; Link Hardware
+                                    </li>
+                                    <li class="list-inline-item">
+                                        &bull; Link Hardware
+                                    </li>
+                                    <li class="list-inline-item">
+                                        &bull; Link Hardware
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+
+                        <!-- DROPDOWN ELEMENT HARDWARE-->
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Hardware
+                            </a>
+
+                            <!-- DROPDOWN LIST HARDWARE  -->
+                            <ul class="dropdown-menu m-0 w-100 border-0 rounded-0 pt-5"
+                                aria-labelledby="navbarDropdown">
+                                <li>
+                                    <!-- <a class="dropdown-item" href="#">Action</a> -->
+                                    <div class="row justify-content-center">
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+
+                                            <span class="d-block">PlayStation 5</span>
+                                        </div>
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+                                            <span class="d-block">PlayStation 4</span>
+                                        </div>
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+                                            <span class="d-block">PlayStation 3</span>
+                                        </div>
                                     </div>
-                                    <div class="col-4 col-lg-4">
-                                        <img src="img/play-menu-ico.png">
+                                </li>
+                                <hr class="dropdown-divider">
+
+                                <ul class="list-inline text-center">
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+
+                        <!-- DROPDOWN ELEMENT SERVIZI -->
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Servizi
+                            </a>
+
+                            <!-- DROPDOWN LIST SERVIZI  -->
+                            <ul class="dropdown-menu m-0 w-100 border-0 rounded-0 pt-5"
+                                aria-labelledby="navbarDropdown">
+                                <li>
+                                    <!-- <a class="dropdown-item" href="#">Action</a> -->
+                                    <div class="row justify-content-center">
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+
+                                            <span class="d-block">PlayStation 5</span>
+                                        </div>
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+                                            <span class="d-block">PlayStation 4</span>
+                                        </div>
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+                                            <span class="d-block">PlayStation 3</span>
+                                        </div>
                                     </div>
-                                </div>
+                                </li>
+                                <hr class="dropdown-divider">
 
-                            </div>
-
-
-                        </div>
-
-                        <hr class="col dropdown-divider">
-
-                        <ul class="list-inline-style row justify-content-center">
-                            <li class="col-auto test_class1">
-                                Link Giochi
-                            </li>
-                            <li class="col-auto test_class1">
-                                Link Giochi
-                            </li>
-                            <li class="col-auto test_class1">
-                                Link Giochi
-                            </li>
-                        </ul>
-                    </div>
-                    </li>
-
-
-                    <!-- HARDWARE  -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Hardware
-                        </a>
-
-                        <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                            <li>
-                                <ul class="list-inline row justify-content-center mt-5 ">
-                                    <li class="list-inline-item col-auto">
-                                        <div class="box_img">
-                                            play
-                                        </div>
+                                <ul class="list-inline text-center">
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
                                     </li>
-                                    <li class="list-inline-item col-auto">
-                                        <div class="box_img">
-                                            play
-                                        </div>
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
                                     </li>
-                                    <li class="list-inline-item col-auto">
-                                        <div class="box_img">
-                                            play
-                                        </div>
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
                                     </li>
                                 </ul>
-
-                            </li>
-                            <hr class="col dropdown-divider">
-
-                            <ul class="list-inline-style row justify-content-center">
-                                <li class="col-4 test_class1">
-                                    Link Giochi
-                                </li>
-                                <li class="col-4 test_class1">
-                                    Link Giochi
-                                </li>
-                                <li class="col-4 test_class1">
-                                    Link Giochi
-                                </li>
                             </ul>
-                        </ul>
-                    </li>
+                        </li>
 
+                        <!-- DROPDOWN ELEMENT NOVITA'  -->
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Novità'
+                            </a>
 
-                    <!-- SERVIZI  -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Servizi
-                        </a>
+                            <!-- DROPDOWN LIST NOVITA'  -->
+                            <ul class="dropdown-menu m-0 w-100 border-0 rounded-0 pt-5"
+                                aria-labelledby="navbarDropdown">
+                                <li>
+                                    <!-- <a class="dropdown-item" href="#">Action</a> -->
+                                    <div class="row justify-content-center">
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
 
-                        <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                            <li>
-                                <ul class="list-inline row justify-content-center mt-5 ">
-                                    <li class="list-inline-item col-auto">
-                                        <div class="box_img">
-                                            play
+                                            <span class="d-block">PlayStation 5</span>
                                         </div>
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+                                            <span class="d-block">PlayStation 4</span>
+                                        </div>
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+                                            <span class="d-block">PlayStation 3</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <hr class="dropdown-divider">
+
+                                <ul class="list-inline text-center">
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
                                     </li>
-                                    <li class="list-inline-item col-auto">
-                                        <div class="box_img">
-                                            play
-                                        </div>
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
                                     </li>
-                                    <li class="list-inline-item col-auto">
-                                        <div class="box_img">
-                                            play
-                                        </div>
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
                                     </li>
                                 </ul>
-
-                            </li>
-                            <hr class="col dropdown-divider">
-
-                            <ul class="list-inline-style row justify-content-center">
-                                <li class="col-4 test_class1">
-                                    Link Giochi
-                                </li>
-                                <li class="col-4 test_class1">
-                                    Link Giochi
-                                </li>
-                                <li class="col-4 test_class1">
-                                    Link Giochi
-                                </li>
                             </ul>
-                        </ul>
-                    </li>
+                        </li>
 
+                        <!-- DROPDOWN ELEMENT FAI ACQUISTI -->
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Fai Acqusiti
+                            </a>
 
-                    <!-- NOVITA'  -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Novità
-                        </a>
+                            <!-- DROPDOWN LIST FAI ACQUISTI  -->
+                            <ul class="dropdown-menu m-0 w-100 border-0 rounded-0 pt-5"
+                                aria-labelledby="navbarDropdown">
+                                <li>
+                                    <!-- <a class="dropdown-item" href="#">Action</a> -->
+                                    <div class="row justify-content-center">
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
 
-                        <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                            <li>
-                                <ul class="list-inline row justify-content-center mt-5 ">
-                                    <li class="list-inline-item col-auto">
-                                        <div class="box_img">
-                                            play
+                                            <span class="d-block">PlayStation 5</span>
                                         </div>
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+                                            <span class="d-block">PlayStation 4</span>
+                                        </div>
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+                                            <span class="d-block">PlayStation 3</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <hr class="dropdown-divider">
+
+                                <ul class="list-inline text-center">
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
                                     </li>
-                                    <li class="list-inline-item col-auto">
-                                        <div class="box_img">
-                                            play
-                                        </div>
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
                                     </li>
-                                    <li class="list-inline-item col-auto">
-                                        <div class="box_img">
-                                            play
-                                        </div>
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
                                     </li>
                                 </ul>
-
-                            </li>
-                            <hr class="col dropdown-divider">
-
-                            <ul class="list-inline-style row justify-content-center">
-                                <li class="col-4 test_class1">
-                                    Link Giochi
-                                </li>
-                                <li class="col-4 test_class1">
-                                    Link Giochi
-                                </li>
-                                <li class="col-4 test_class1">
-                                    Link Giochi
-                                </li>
                             </ul>
-                        </ul>
-                    </li>
+                        </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Fai acquisti
-                        </a>
+                        <!-- DROPDOWN ELEMENT SUPPORTO -->
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Supporto
+                            </a>
 
-                        <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                            <li>
-                                <ul class="list-inline row justify-content-center mt-5 ">
-                                    <li class="list-inline-item col-auto">
-                                        <div class="box_img">
-                                            play
+                            <!-- DROPDOWN LIST FAI SUPPORTO  -->
+                            <ul class="dropdown-menu m-0 w-100 border-0 rounded-0 pt-5"
+                                aria-labelledby="navbarDropdown">
+                                <li>
+                                    <!-- <a class="dropdown-item" href="#">Action</a> -->
+                                    <div class="row justify-content-center">
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+
+                                            <span class="d-block">PlayStation 5</span>
                                         </div>
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+                                            <span class="d-block">PlayStation 4</span>
+                                        </div>
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+                                            <span class="d-block">PlayStation 3</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <hr class="dropdown-divider">
+
+                                <ul class="list-inline text-center">
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
                                     </li>
-                                    <li class="list-inline-item col-auto">
-                                        <div class="box_img">
-                                            play
-                                        </div>
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
                                     </li>
-                                    <li class="list-inline-item col-auto">
-                                        <div class="box_img">
-                                            play
-                                        </div>
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
                                     </li>
                                 </ul>
-
-                            </li>
-                            <hr class="col dropdown-divider">
-
-                            <ul class="list-inline-style row justify-content-center">
-                                <li class="col-4 test_class1">
-                                    Link Giochi
-                                </li>
-                                <li class="col-4 test_class1">
-                                    Link Giochi
-                                </li>
-                                <li class="col-4 test_class1">
-                                    Link Giochi
-                                </li>
                             </ul>
-                        </ul>
-                    </li>
+                        </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Supporto
-                        </a>
+                        <!-- DROPDOWN ELEMENT MY PLAYSTATION SM-->
+                        <div class="row">
+                            <div class="col d-md-none">
+                                <ul class="list-unstyled text-center">
+                                    <li class="nav-item dropdown position-static text-center py-2">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            My PlayStation
+                                        </a>
 
-                        <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                            <li>
-                                <ul class="list-inline row justify-content-center mt-5 ">
-                                    <li class="list-inline-item col-auto">
-                                        <div class="box_img">
-                                            play
-                                        </div>
-                                    </li>
-                                    <li class="list-inline-item col-auto">
-                                        <div class="box_img">
-                                            play
-                                        </div>
-                                    </li>
-                                    <li class="list-inline-item col-auto">
-                                        <div class="box_img">
-                                            play
-                                        </div>
-                                    </li>
-                                </ul>
+                                        <!-- DROPDOWN LIST MY PLAYSTATION  -->
+                                        <ul class="dropdown-menu m-0 w-100 border-0 rounded-0 pt-5"
+                                            aria-labelledby="navbarDropdown">
+                                            <li>
+                                                <!-- <a class="dropdown-item" href="#">Action</a> -->
+                                                <div class="row justify-content-center">
+                                                    <div class="col-auto text-center">
+                                                        <img src="img/play-menu-ico.png" alt="">
 
-                            </li>
-                            <hr class="col dropdown-divider">
-
-                            <ul class="list-inline-style row justify-content-center">
-                                <li class="col-4 test_class1">
-                                    Link Giochi
-                                </li>
-                                <li class="col-4 test_class1">
-                                    Link Giochi
-                                </li>
-                                <li class="col-4 test_class1">
-                                    Link Giochi
-                                </li>
-                            </ul>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown">
-
-                        <div class="row justify-content-center">
-                            <div class="col-auto">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    My PlayStation
-                                </a>
-
-                                <ul class="list-inline dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                                    <li>
-                                        <ul class="list-inline row justify-content-start mt-5 ">
-                                            <li class="list-inline-item col-auto">
-                                                <div class="box_img">
-                                                    play
+                                                        <span class="d-block">PlayStation 5</span>
+                                                    </div>
+                                                    <div class="col-auto text-center">
+                                                        <img src="img/play-menu-ico.png" alt="">
+                                                        <span class="d-block">PlayStation 4</span>
+                                                    </div>
+                                                    <div class="col-auto text-center">
+                                                        <img src="img/play-menu-ico.png" alt="">
+                                                        <span class="d-block">PlayStation 3</span>
+                                                    </div>
                                                 </div>
                                             </li>
-                                            <li class="list-inline-item col-auto">
-                                                <div class="box_img">
-                                                    play
-                                                </div>
-                                            </li>
-                                            <li class="list-inline-item col-auto">
-                                                <div class="box_img">
-                                                    play
-                                                </div>
-                                            </li>
+                                            <hr class="dropdown-divider">
+
+                                            <ul class="list-inline text-center">
+                                                <li class="list-inline-item">
+                                                    <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
+                                                </li>
+                                            </ul>
                                         </ul>
                                     </li>
+                                    <!-- BUTTON  -->
+                                    <li class="py-2">
+                                        <button type="button" class="btn btn-secondary rounded-pill ">Accedi</button>
+                                    </li>
+            
+                                    <!-- LENS ICON -->
+                                    <li class="py-1">
+                                        <a href="#">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </a>
+                                    </li>
+
                                 </ul>
                             </div>
                         </div>
-                    </li>
+
+
                     </ul>
-                    <div class="row justify-content-center">
-                        <div class="col-auto">
-                            <button type="button" class="btn btn-dark -pill">Accedi</button>
-                        </div>
-                        <div class="row justify-content-center mt-2">
-                            <div class="col-auto">
+                </div>
+            </div>
+
+
+            <div class=" d-none d-lg-block col-lg-auto pe-2">
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav align-items-center">
+
+                        <!-- DROPDOWN ELEMENT MY PLAYSTATION LG -->
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                My PlayStation
+                            </a>
+
+                            <!-- DROPDOWN LIST MY PLAYSTATION-->
+                            <ul class="dropdown-menu m-0 w-100 border-0 rounded-0 pt-5"
+                                aria-labelledby="navbarDropdown">
+                                <li>
+                                    <!-- <a class="dropdown-item" href="#">Action</a> -->
+                                    <div class="row justify-content-center">
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+
+                                            <span class="d-block">PlayStation 5</span>
+                                        </div>
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+                                            <span class="d-block">PlayStation 4</span>
+                                        </div>
+                                        <div class="col-auto text-center">
+                                            <img src="img/play-menu-ico.png" alt="">
+                                            <span class="d-block">PlayStation 3</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <hr class="dropdown-divider">
+
+                                <ul class="list-inline text-center">
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <!-- TODO:FARE CON BEFORE IL MARKER  -->Link Hardware
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+
+
+                        <li class="mx-2">
+                            <button type="button" class="btn btn-secondary rounded-pill ">Accedi</button>
+                        </li>
+                        <li>
+                            <a href="#">
                                 <i class="fa-solid fa-magnifying-glass"></i>
-                            </div>
-                        </div>
-                    </div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -714,8 +799,8 @@
 
     <!-- FOOTER  -->
     <!-- TODO:CAMBIARE COLORE DA AZZURRO A BIANCO AL LOGO PLAY SVG  -->
-    <footer class="container footer_bg text-white">
-        <div class="row my-5 px-2">
+    <footer class="footer_bg text-white">
+        <div class="container row my-5 px-2">
             <div class="offset-12 off_height"></div>
             <div class="col-12 col-lg-6">
                 <img src="img/play_logo.svg" class="img_box4" alt="">
@@ -764,9 +849,11 @@
 
 
         </div>
-        div
+
 
     </footer>
+
+
 
     <!-- SCRIPT  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
