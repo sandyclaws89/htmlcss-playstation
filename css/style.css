@@ -17,6 +17,10 @@
     --bs-primary: #0d6efd;
 }
 
+.fs-1a{
+    font-size: 2.5rem;
+}
+
 .mt-6{
     margin-top: 6rem;
 }
