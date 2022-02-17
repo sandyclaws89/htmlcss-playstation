@@ -79,6 +79,7 @@
 
 nav li div div:hover {
     box-shadow: 0px 0px 8px grey;
+    cursor: pointer;
 }
 
 li > span:hover {
@@ -90,6 +91,16 @@ li > span:hover {
     border: 2px solid black;
     outline: 1px solid red;
 }
+.btn-primary:hover {
+
+    border: 1px solid white;
+    outline: 2px solid #5f7493;
+
+}
+
+
+
+
 
 
 
