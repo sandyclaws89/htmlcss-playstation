@@ -61,8 +61,8 @@
   }
 
 
-.test_class4:hover { 
-    
+.fa-globe{
+    padding-right: .7rem;
 }
 
 
@@ -98,10 +98,18 @@ li > span:hover {
     outline: 2px solid #5f7493;
 
 }
+
 .btn-secondary:hover {
     border: 2px solid rgb(189, 195, 199);
     background-color: rgba(218, 223, 225, .8);
 }
+
+.btn-light:hover{
+    border: 2px solid black;
+    outline: 1px solid white;
+}
+
+
 
 .btn-secondary{
     background-color: rgba(218, 223, 225, .8);
