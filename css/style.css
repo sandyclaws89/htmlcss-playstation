@@ -171,10 +171,21 @@ header{
     background-color: var(--test3);
 }
 
+.opacity_class{
+    border-bottom: 1px;
+    border-bottom: solid 
+}
+
+.opacity_h:hover{
+    opacity: 1!important;
+    cursor: pointer;
+    border-bottom: 1px;
+    border-bottom: solid #0d6efd!important;
+}
 
 .fa-magnifying-glass{
      font-size: 1.5rem;
-    }
+}
     
     .returnal_banner{
     height: 80vh;
@@ -241,6 +252,8 @@ padding: 0 1rem;
      top: 100px;
  }
 
+ 
+
  .new_release_bg{
      background-color: #1F1F1F;
  }
@@ -259,6 +272,13 @@ padding: 0 1rem;
 
 .off_height{
     height: 80px;
+}
+
+h4 span {
+    font-size: .5rem;
+    color: white;
+    position: relative;
+    bottom: 10px;
 }
 
 
