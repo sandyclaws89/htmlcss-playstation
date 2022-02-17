@@ -87,6 +87,7 @@ nav li div div:hover {
 
 .navbar-brand > img{
     width: 70px;
+    he
 }
 
 li > span:hover {
@@ -116,16 +117,27 @@ li > span:hover {
     outline: 1px solid white;
 }
 
-
-
 .btn-secondary{
     background-color: rgba(218, 223, 225, .8);
     border-color: transparent;
 }
 
+.absolute{
+    position: absolute;
+    bottom: 0;
+    /* left:0 */
+}
 
+.relative:hover .test_class3{
+    bottom: 65px;
+    transition-duration: .3s;
+    transition-timing-function: linear;
 
+}
 
+.test_class4{
+    right:7px
+}
 
 
 
@@ -172,11 +184,7 @@ header{
     width: 100vw;
     background-color: var(--test2);
 }
-.test_class3{
-    /* height: 10px;
-    width: 10px; */
-    background-color: var(--test3);
-}
+
 
 .opacity_class{
     border-bottom: 1px;
